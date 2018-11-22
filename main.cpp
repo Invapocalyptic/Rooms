@@ -1,10 +1,21 @@
 #include <iostream>
-#include <string>
-#include "2.h"
 
 using namespace std;
 
 int main(){
-    hello();
+    int arrLimit = 100;
+    int arr[arrLimit];
+    for ( int i = 0; i<100; i++){
+        arr[i] = i+1;
+    }
+    for ( int elem : arr){
+        int sum = 0;
+        sum += elem;
+        cout << sum << endl;
+    } 
+    
+    // for ( int elem : arr){
+    //     cout << elem << endl;
+    // }
     return 0;
 } 
