@@ -4,20 +4,7 @@ private:
 	int health;
 	
 };
-class Weapon : Item{
-private:
-	int damage;
-	int durability;
-public:
-	Weapon( int weight, string name, int damage, int durability){
-		this.canPickUp = true;
-		this.weight = weight;
-		this.name = name;
-		this.damage = damage;
-		this.durability = durability;
-	}
-	
-};
+
 
 class Room{
 private:

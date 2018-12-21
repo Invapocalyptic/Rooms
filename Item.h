@@ -17,5 +17,4 @@ private:
 public:
 	Item(bool canPickUp, int weight, string name, bool canEquip);
 	int getWeight();
-	
 };
